@@ -1,4 +1,4 @@
-.gradle
+#.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
@@ -11,10 +11,10 @@ build/
 *.ipr
 out/
 
-/gradle/
-settings.gradle
-\gradlew
-gradlew/
-gradlew.bat
+#/gradle/
+#settings.gradle
+#\gradlew
+#gradlew/
+#gradlew.bat
 *.log
 *.png
