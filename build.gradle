@@ -33,11 +33,11 @@ task qa1(type: Test) {
         def suite2 = project.hasProperty("suite2")
         def suite3=project.hasProperty("suite3")
         if(suite1){
-            suites 'srs/test/resources/testng.xml'
+            suites 'src/test/resources/testng.xml'
         }else if (suite2){
-            suites 'srs/test/resources/smoky.xml'
+            suites 'src/test/resources/smoky.xml'
         }else if (suite3){
-            suites 'srs/test/resources/negative.xml'
+            suites 'src/test/resources/negative.xml'
         }
     }
     if (project.hasProperty('browser'))
