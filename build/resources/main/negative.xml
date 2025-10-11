@@ -1,9 +1,9 @@
-<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<!--<suite name="Negative" verbose="1">-->
-<!--    <test name="Negative">-->
-<!--        <classes>-->
-<!--            <class name="com.phonebook.tests."/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--</suite>-->
+<suite name="Negative" verbose="1">
+    <test name="Negative">
+        <classes>
+            <class name="com.phonebook.tests"></class>
+        </classes>
+    </test>
+</suite>

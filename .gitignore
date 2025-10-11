@@ -1,4 +1,4 @@
-
+.gradle
 
 
 
@@ -9,5 +9,10 @@
 *.ipr
 out/
 
+/gradle/
+settings.gradle
+\gradlew
+gradlew/
+gradlew.bat
 *.log
 *.png
